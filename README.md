@@ -8,12 +8,12 @@ TODO: Write some instructions for how to use the software
  
 ## Credits
  
-Naman Ahuja (@namanahuja)  
+Naman Ahuja ([@namanahuja](https://github.com/namanahuja))  
 Ritesh Bansal ()  
-Bill Ingram (@waingram)  
-Palakh Jude (@palakhjude)  
-Sampanna Kahu (@sampannakahu)  
-Xinyue Wang (@xw0078)  
+Bill Ingram ([@waingram](https://github.com/waingram))  
+Palakh Jude ([@palakhjude](https://github.com/palakhjude))  
+Sampanna Kahu ([@sampannakahu](https://github.com/sampannakahu))  
+Xinyue Wang ([@xw0078](https://github.com/xw0078))  
  
 ## License
  
