@@ -15,10 +15,13 @@ One single unified shell script to completely setup science-parse on a remote se
 3. ``./setup_science_parse.sh``. This will need internet access so run it on a login node of ARC. Should take less than 30 minutes.
 
 ### Steps to run science-parse for a single pdf:
-``java -Xmx6g -jar ~/science-parse/cli/target/scala-2.11/science-parse-cli-assembly-2.0.2-SNAPSHOT.jar <path_to_your_pdf>``
+1. ``module load jdk/1.8.0u172``
+2. ``java -Xmx6g -jar ~/science-parse/cli/target/scala-2.11/science-parse-cli-assembly-2.0.2-SNAPSHOT.jar <path_to_your_pdf>``
 
 ### Steps to run for multiple pdfs:
-``java -Xmx6g -jar ~/science-parse/cli/target/scala-2.11/science-parse-cli-assembly-2.0.2-SNAPSHOT.jar -p <path_to_the_folder_with_PDFs> -o <output_directory_path>`` 
+1. ``module load jdk/1.8.0u172``
+2. ``java -Xmx6g -jar ~/science-parse/cli/target/scala-2.11/science-parse-cli-assembly-2.0.2-SNAPSHOT.jar -p <path_to_the_folder_with_PDFs> -o <output_directory_path>`` 
 
 ### Help:
-``java -Xmx6g -jar ~/science-parse/cli/target/scala-2.11/science-parse-cli-assembly-2.0.2-SNAPSHOT.jar --help``
+1. ``module load jdk/1.8.0u172``
+2. ``java -Xmx6g -jar ~/science-parse/cli/target/scala-2.11/science-parse-cli-assembly-2.0.2-SNAPSHOT.jar --help``
