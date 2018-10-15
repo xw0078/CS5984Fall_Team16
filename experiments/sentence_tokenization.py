@@ -103,7 +103,7 @@ if __name__ == '__main__':
     For each chapter, print the chapter title. Then print each sentence on a new line. 
     """
 
-    docPath = '/Users/waingram/Desktop/gorbid_fulltext/theses/17272/McMillan_AS_T_2017.tei.xml'
+    docPath = '/Users/waingram/Desktop/gorbid_fulltext/theses/17274/Granstedt_JL_T_2017.tei.xml'
     ch_json = extract_ch_json(docPath, 'thesis', 17292)
 
     for chapter in ch_json['chapters']:
