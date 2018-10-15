@@ -9,7 +9,7 @@ TODO: Write some instructions for how to use the software
 ## Credits
  
 Naman Ahuja ([@namanahuja](https://github.com/namanahuja))  
-Ritesh Bansal ()  
+Ritesh Bansal ([@Riteshbansal](https://github.com/Riteshbansal))  
 Bill Ingram ([@waingram](https://github.com/waingram))  
 Palakh Jude ([@palakhjude](https://github.com/palakhjude))  
 Sampanna Kahu ([@sampannakahu](https://github.com/sampannakahu))  
