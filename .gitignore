@@ -106,3 +106,14 @@ venv.bak/
 .mypy_cache/
 /.idea/
 /CS5984Fall_Team16.iml
+
+
+/experiments/wikipedia-vectors.d2v.trainables.syn1neg.npy
+/experiments/wikipedia-vectors.d2v.wv.vectors.npy
+/experiments/wikipedia-vectors.d2v.docvecs.vectors_docs_norm.npy
+/experiments/wikipedia-vectors.d2v
+/experiments/wikipedia-vectors.d2v.docvecs.vectors_docs.npy
+/enwiki-latest-pages-articles.xml.bz2
+/enwiki-latest.json.gz
+/enwiki-latest-pages-articles.xml
+/experiments/enwiki_dbow/
