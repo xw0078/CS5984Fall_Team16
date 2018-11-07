@@ -1,4 +1,10 @@
 # -*- mode: python; -*-
+
+"""Clean wiki text:
+This script uses methods developed for the Wikipedia Extractor project, with some minor modifications
+see: http://medialab.di.unipi.it/wiki/Wikipedia_Extractor
+"""
+
 import json
 import re
 from itertools import zip_longest
@@ -61,7 +67,6 @@ keepLists = True
 
 
 def wiki2text(text):
-
     # Drop tables
     # first drop residual templates, or else empty parameter |} might look like end of table.
     if not keep_tables:
