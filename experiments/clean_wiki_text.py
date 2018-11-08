@@ -328,20 +328,23 @@ def dropSpans(spans, text):
 
 
 def main():
-    # articles = 3
-    # count = 1
+    articles = 300
+    count = 1
 
     in_file = '../ETD_related_abstract_v3.json'
-    out_file = '../ETD_related_abstract_v4.json'
+    out_file = '../ETD_related_abstract_v5.json'
 
     with smart_open(out_file, 'wb') as fout:
         with smart_open(in_file, 'rb') as fin:
             for line in fin:
-                # count += 1
+                count += 1
 
                 data = json.loads(line)
                 data['introduction'] = ' '.join(compact(clean(wiki2text(data['introduction']))))
                 data['textbody'] = ' '.join(compact(clean(wiki2text(data['textbody']))))
+
+                if len(data['introduction']) < 50 or len(data['textbody']) < 100:
+                    continue
 
                 # print(data['introduction'])
                 # print()
@@ -350,7 +353,7 @@ def main():
 
                 json.dump(data, codecs.getwriter('utf-8')(fout), ensure_ascii=False)
                 fout.write(b'\n')
-
+                #
                 # if count > articles:
                 #     break
 
