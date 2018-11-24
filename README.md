@@ -7,8 +7,6 @@ TODO: **add abstract**
 This repository is made up of several Python scripts and Jupyter notebooks organized in separate
 directories.
 
-# Contents
-
   - training data scripts – Scripts for managing and manipulating the
     training corpus
     
