@@ -2,41 +2,12 @@
  
 ## Abstract
 
-The following is Team 16’s project report for the course “CS 5984 Big
-Data Text Summarization” in fall 2018. The course, in partnership with
-the University Libraries and the Digital Library Research Lab, prepared
-a corpus of electronic theses and dissertations (ETDs) for students to
-study natural language processing with the power of state of the art
-deep learning technology. The ETD corpus is made up of 13,071 doctoral
-dissertations and 17,890 master theses downloaded from the University
-Libraries’ VTechWorks system . This particular study is designed to
-explore big data summarization on ETDs, which is a relatively
-under-explored area. The result of the project will help to address the
-difficulty of information extraction from ETD documents, the potential
-of transfer learning on automatic summarization of ETD chapters, and the
-quality of state of the art deep learning summarization technologies
-when applied to the ETD corpus.
+Team 16 in the fall 2018 course "CS 4984/5984 Big Data Text Summarization," in partnership with the University Libraries and the Digital Library Research Laboratory, prepared a corpus of electronic theses and dissertations (ETDs) for students to study natural language processing with the power of state-of-the-art deep learning technology. The ETD corpus is made up of 13,071 doctoral dissertations and 17,890 master theses downloaded from the University Libraries’ VTechWorks system. This particular study is designed to explore big data summarization for ETDs, which is a relatively under-explored area. The result of the project will help to address the difficulty of information extraction from ETD documents, the potential of transfer learning on automatic summarization of ETD chapters, and the quality of state-of-the-art deep learning summarization technologies when applied to the ETD corpus.
 
-The goal of this project is to generate chapter level abstractive
-summaries for an ETD collection through deep learning. Major challenges
-of the project include accurately extracting well-formatted chapter text
-from PDF files, and the lack of labeled data for supervised deep
-learning models. For PDF processing, we compare two state of the art
-scholarly PDF data extraction tools, Grobid and Science-Parse, which
-generate structured documents from which we can further extract metadata
-and chapter level text. For the second challenge, we perform transfer
-learning by training supervised learning models on a labeled dataset of
-Wikipedia articles related to the ETD collection. Our experimental
-models include Sequence-to-Sequence and Pointer Generator summarization
-models. Besides supervised models, we also experiment with an
-unsupervised reinforcement model, Fast Abstractive Summarization-RL.
+The goal of this project is to generate chapter level abstractive summaries for an ETD collection through deep learning. Major challenges of the project include accurately extracting well-formatted chapter text from PDF files, and the lack of labeled data for supervised deep learning models. For PDF processing, we compare two state of the art scholarly PDF data extraction tools, Grobid and Science-Parse, which generate structured documents from which we can further extract metadata and chapter level text. For the second challenge, we perform transfer learning by training supervised learning models on a labeled dataset of Wikipedia articles related to the ETD collection. Our experimental models include Sequence-to-Sequence and Pointer Generator summarization models. Besides supervised models, we also experiment with an unsupervised reinforcement model, Fast Abstractive Summarization-RL.
 
-The general pipeline for our experiment consists of the following steps:
-PDF data processing and chapter extraction, collecting a training data
-set of Wikipedia articles, manually creating human generated gold
-standard summaries for testing and validation, building deep learning
-models for chapter summarization, evaluate and tune the models based on
-results, and repeat.
+The general pipeline for our experiments consists of the following steps: PDF data processing and chapter extraction, collecting a training data set of Wikipedia articles, manually creating human generated gold standard summaries for testing and validation, building deep learning models for chapter summarization, evaluating and tuning the models based on results, and then iteratively refining the whole process.
+
 
 ## Contents
 
